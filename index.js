@@ -102,7 +102,7 @@ io.on("connection", (socket) => {
 // Function to start the API calls
 const startApiCalls = () => {
   if (!intervalId) {
-    intervalId = setInterval(getToken, 15 * 1000); // 15 * 1000 ms = 15 seconds
+    intervalId = setInterval(getToken, 45 * 1000); // 15 * 1000 ms = 15 seconds
     console.log("API calls started.");
   }
 };
